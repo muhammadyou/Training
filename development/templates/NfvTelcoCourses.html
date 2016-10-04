@@ -1,0 +1,40 @@
+
+<div class="row">
+    <div class="col s12 m12">
+        <div class="card darken-1 orangeBg">
+            <div class="card-content">
+                <div class="row">
+                    <div class="col m2">
+                        <span class="card-title textShadow"><h4>Courses</h4></span>
+
+                    </div>
+                    <div class="col m1 right">
+                        <i class="material-icons right pointer" ui-sref="main.nfvProgram">close</i>
+
+                    </div>
+                </div>
+
+
+                <div ng-repeat="item in vm.nfvTelcoAutoCourses[vm.areaname]">
+
+                    <div class=" divider"></div>
+
+                    <h5 class="coursesTitle">{{item.Coursetitle}}</h5>
+
+
+                    <ul class="collapsible popout" data-collapsible="accordion" watch>
+                        <li ng-repeat="section in item.sections">
+                            <div class="collapsible-header sectionHeadbg"><i class="{{single.icon}}"></i><strong>Section: {{section.title}}</strong></div>
+                            <div class="collection collapsible-body" ng-repeat="video in section.videos">
+                                <h6 class="collection-item" style="background-color:black;">Videos:</h6>
+                                <a href="https://linuxacademy.com/linux/training/course/name/introduction-to-pinehead" class="collection-item">{{video.title}}</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
