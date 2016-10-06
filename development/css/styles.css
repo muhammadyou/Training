@@ -44,7 +44,7 @@ body{
 }
 
 .orangeBg{
-    background: #fe7600 !important;
+    background: #FF8000 !important;
     color:white;
 }
 
@@ -90,52 +90,113 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
 
 /*--------------------------------------------Landing Page------------------------------------------------------------*/
 
+
+.ImageBg{
+
+    background-image: url('../img/fancy.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    width:100%;
+    min-height: 100%;
+}
+
 .header{
     box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
 }
+
+.header h3 {
+    position: relative;
+}
+
+
+.sahaabHeading{
+    font-family: "neo-tech", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    margin-top:15px;
+    margin-left:-35px;
+    position:absolute;
+    color:black;
+}
+
+.sahaabArab{
+    margin-top:20px;
+
+
+}
+
+.sahaabArab img{
+    margin-left:-25px;
+    width:150px;
+    margin-top:15px;
+
+}
+
 .header img {
     float: left;
     margin-left:20px;
     position:absolute
 }
 
-.header h1 {
-    position: relative;
-
-
+.roundBtn{
+    margin-top:15px;
+    margin-right:5px;
+    float:right !important;
+    background-color: #FFA500 !important;
 }
 
+.homefab{
+    background-color: #FFCC00 !important;
+}
+
+.contactfab{
+    background-color: #719E19 !important;
+}
+
+
+.iconsColor:hover{
+    color: #729e1a !important;
+}
 /*-----------------------------------------Training Program Boxes ----------------*/
 
 
 .ProgramBoxesHeadng{
-    margin-top:150px;
+    margin-top:65px;
 
 }
 
-.trainingProgBox p{
-    color:#729e1a !important;
-    font-weight: 800;
-    font-size: 20px;
-}
-.trainingProgBox{
-    background-color:white !important;
-    transition: background-color .75s ease !important;
-}
-.trainingProgBox:hover{
+
+.trainingBtn{
+    height: 74px !important;
+    line-height: 74px !important;
+    padding: 0px 40px !important;
     background-color: #FFA500 !important;
-    color:white;
-    cursor:pointer;
 }
 
+.trainingBtn:hover{
+    color:#729e1a !important;
+}
+.trainingBtnFont{
+    font-size: 18px !important;
+
+}
+
+/*-----------------------------------------------NFV and SDN Heading above tabs ------------------------------------------------*/
+.NFVSDNhead{
+    font-size:32px;
+}
 /*--------------------------------------------------NFV Program (learning Paths) -----------------------------------------------*/
 
+.firstblock:hover{
+    border:5px solid red;
+}
 .NFVContent{
     margin-top:55px;
 }
 
 .tabs .tab {
-    background-color: #FFA500 !important;
+    background-color: #FFCC00 !important;
 }
 .tabs .tab a{
     color: white !important;
@@ -157,6 +218,10 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
     background-color: black !important;
 }
 
+
+
+
+
 /*-------------------------------------Telco and Auto Courses View -----------------------------------------------------*/
 .coursesTitle{
     font-size:21px;
@@ -166,5 +231,12 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
     background: #D4D4D4 !important;
     color: #729e1a !important;
     font-weight:bold;
+    transition: background .75s ease!important;
+
+}
+
+.sectionHeadbg:hover{
+    background: grey !important;
+    color: #00FF00 !important;
 }
 

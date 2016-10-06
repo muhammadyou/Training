@@ -15,7 +15,7 @@ angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.rou
 
             })
 
-            .state('main.home', {
+            .state('main.home', {  // Landing Page
                 url: '/home',
                 views: {
                     'contentView' : {
@@ -25,7 +25,7 @@ angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.rou
 
             })
 
-            .state('main.nfvProgram', {
+            .state('main.nfvProgram', {  //NFV Courses like Openstack
                 url: '/NFVProgram',
                 views: {
                     'contentView' : {
@@ -37,23 +37,39 @@ angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.rou
 
 
 
-            .state('main.nfvProgram.TelcoCourses', {
-                url: '/TelcoCourses',
+            .state('main.nfvProgram.TelcoAutoCourses', {  //Courses Details for a specific area
+                url: '/TelcoAutoCourses',
                 views: {
-                    'telcoCoursesView' : {
-                        templateUrl: 'templates/NfvTelcoCourses.html',
-                        controller: 'NFVTelcoCtrl as vm'
+                    'TelcoCourseView' : {
+                        templateUrl: 'templates/NfvCourses.html',
+                        controller: 'NFVCoursesCtrl as vm'
                     }
                 }
 
             })
 
 
+            .state('main.nfvProgram.VNFOwnCourses', {  //Courses Details for a specific area
+                url: '/VNFOwnCourses',
+                views: {
+                    'VNFOwnCoursView' : {
+                        templateUrl: 'templates/NfvCourses.html',
+                        controller: 'VNFOwnCoursesCtrl as vm'
+                    }
+                }
 
+            })
 
+            .state('main.nfvProgram.CloudEveryone', {  //Courses Details for a specific area
+                url: '/CloudForEveryoneAndManagement',
+                views: {
+                    'CloudEveryoneView' : {
+                        templateUrl: 'templates/NfvCourses.html',
+                        controller: 'CloudEveryoneCtrl as vm'
+                    }
+                }
 
-
-
+            })
 
 
         $urlRouterProvider.otherwise('/home');

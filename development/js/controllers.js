@@ -1,226 +1,50 @@
 angular.module("MyControllers", [])
 
-    .controller("MainCtrl", function($state, NFVTelcoCourses) {
+    .controller("MainCtrl", function($state, NFVCourseClickState) {
 
 
-        this.gotoCourse= function(area){
-            NFVTelcoCourses.setName(area)  // send the area name to service to make it accessible by another view and ctrl
+        this.gotoCourse= function(category, area, tabView){
+            NFVCourseClickState.set("selectedArea", area)  // send the area name to service to make it accessible by another view and ctrl
+            NFVCourseClickState.set("category", category)
+            $state.go(tabView);
         }
-
-
 
     })
 
-    .controller("NFVTelcoCtrl", function(NFVTelcoCourses) {
+    .controller("NFVCoursesCtrl", function(NFVCourseClickState, TelcoAutoCourses) {
 
-        this.areaname =  NFVTelcoCourses.getName(); // get the name of area clicked by the user to get the relevant sections and vids
+        var areaname =  NFVCourseClickState.get("selectedArea"); // get the name of area clicked by the user to get the relevant sections and vids
+        var category =  NFVCourseClickState.get("category"); // get the name of area clicked by the user to get the relevant sections and vids
+        this.coursesCollectionName = areaname.split("ET").toString().replace(/,/g, " "); // removes ET from the name, converts to string adding commmas, then replace commmas with space
 
+        var AlltelcoAutoCourses = TelcoAutoCourses.get();  // get the section and courses
+        console.log(JSON.stringify(AlltelcoAutoCourses))
+        console.log("Category " + category)
+        console.log("Area name " + areaname)
+        this.currentClickedArea = AlltelcoAutoCourses[category][areaname];
+        console.log(this.currentClickedArea)
 
+    })
 
-        this.nfvTelcoAutoCourses = {
-            introLinAcad: [
-                {
-                    Coursetitle: "Introduction to Linux Academy",
-                    sections: [
-                        {
-                            title: "All",
-                            videos: [
-                                {title: "All"}
-                            ]
-                        }
-                    ]
-                }
+    .controller("VNFOwnCoursesCtrl", function(NFVCourseClickState, VNFOwnCourses) {
 
-            ],
+        var areaname =  NFVCourseClickState.get("selectedArea"); // get the name of area clicked by the user to get the relevant sections and vids
+        var category =  NFVCourseClickState.get("category"); // get the name of area clicked by the user to get the relevant sections and vids
+        this.coursesCollectionName = areaname.split("ET").toString().replace(/,/g, " "); // removes ET from the name, converts to string adding commmas, then replace commmas with space
 
-            cloudDev: [
-                {
-                    Coursetitle: "DevOps Essentials",
-                    sections: [
-                        {
-                            title: "All Sections and Videos",
-                            videos: [
-                                {title: "All"}
-                            ]
-                        }
-
-                    ]
-                },
-
-                {
-                    Coursetitle: "CompTIA Cloud Essentials Certifications",
-                    sections: [
-                        {
-                            title: "Characteristics of cloud services from a business perspective",
-                            videos: [
-                                {title: "All"}
-                            ]
-                        },
-                        {
-                            title: "Technical perspectives/cloud types",
-                            videos: [
-                                {title: "All"}
-                            ]
-                        },
-                        {
-                            title: "Steps to successful adoption of cloud computing",
-                            videos: [
-                                {title: "All"}
-                            ]
-                        },
-                        {
-                            title: "Understanding the impact and changes of cloud computing on IT service management in a typical organization",
-                            videos: [
-                                {title: "All"}
-                            ]
-                        }
-                    ]
-                },
-
-                {
-                    Coursetitle: "Microsoft Azure Essentials",
-                    sections: [
-                        {
-                            title: "Introduction to Azure",
-                            videos: [
-                                {title: "All"}
-                            ]
-                        }
-                    ]
-                },
-
-                {
-                    Coursetitle: "AWS Certified Solutions Architect - Associate Level",
-                    sections: [
-                        {
-                            title: "AWS Concepts",
-                            videos: [
-                                {title: "All"}
-                            ]
-                        }
-                    ]
-                }
-            ],
-
-            linux: [
-                {
-                    Coursetitle: "Linux Essentials Certification",
-                    sections: [
-                        {
-                            title: "All",
-                            videos: [
-                                {title: "All"}
-                            ]
-                        }
-
-                    ]
-                }
-            ],
-
-            openstack: [
-                {
-                    Coursetitle: "Openstack Essentials",
-                    sections: [
-                        {
-                            title: "All",
-                            videos: [
-                                {title: "All"}
-                            ]
-                        }
-
-                    ]
-                },
-
-                {
-                    Coursetitle: "Openstack Foundation Certified Openstack Administrator",
-                    sections: [
-                        {
-                            title: "All",
-                            videos: [
-                                {title: "All"}
-                            ]
-                        }
-
-                    ]
-                }
-
-            ],
+        var AllVNFOwnCourses = VNFOwnCourses.get();  // get the section and courses
+        this.currentClickedArea = AllVNFOwnCourses[category][areaname];
+    })
 
 
-            script: [
-                {
-                    Coursetitle: "Introduction to Python to Linux",
-                    sections: [
-                        {
-                            title: "All",
-                            videos: [
-                                {title: "All"}
-                            ]
-                        }
+    .controller("CloudEveryoneCtrl", function(NFVCourseClickState, CloudEveryoneCourses) {
 
-                    ]
-                },
+        var areaname =  NFVCourseClickState.get("selectedArea"); // get the name of area clicked by the user to get the relevant sections and vids
+        var category =  NFVCourseClickState.get("category"); // get the name of area clicked by the user to get the relevant sections and vids
+        this.coursesCollectionName = areaname.split("ET").toString().replace(/,/g, " "); // removes ET from the name, converts to string adding commmas, then replace commmas with space
 
-                {
-                    Coursetitle: "The System Administrator's Guide to Bash Scripting",
-                    sections: [
-                        {
-                            title: "All",
-                            videos: [
-                                {title: "All"}
-                            ]
-                        }
-
-                    ]
-                }
-
-            ],
-
-            VCS: [
-                {
-                    Coursetitle: "Git and Git lab - Start to Finish",
-                    sections: [
-                        {
-                            title: "All",
-                            videos: [
-                                {title: "All"}
-                            ]
-                        }
-
-                    ]
-                }
-
-            ]
-
-        }
-
-        console.log(JSON.stringify(this.nfvTelcoAutoCourses[this.areaname]))
-
-
-        this.collapsibleElements = [
-            {
-            icon: 'mdi-image-filter-drama',
-            title: 'First',
-            content: [
-                {material: 'Lorem ipsum dolor sit amet.'},
-                {material: 'Lorem ipsum dolor sit amet.'},
-                {material: 'Lorem ipsum dolor sit amet.'}
-                ]
-            },
-            {
-            icon: 'mdi-maps-place',
-            title: 'Second',
-            content: 'Lorem ipsum dolor sit amet.'
-            },
-            {
-            icon: 'mdi-social-whatshot',
-            title: 'Third',
-            content: 'Lorem ipsum dolor sit amet.'
-            }
-        ];
-
-
-
+        var AllVNFOwnCourses = CloudEveryoneCourses.get();  // get the section and courses
+        this.currentClickedArea = AllVNFOwnCourses[category][areaname];
     })
 
 
