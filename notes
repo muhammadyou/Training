@@ -1,5 +1,11 @@
 -Html Map Tag:
     -About coords params: https://www.sitepoint.com/web-foundations/coords-html-attribute/
+    -All you need to do is open the image in photoshop
+        -Then use the select tool and drag it over the area which you wanna make clickable
+        -Then press CTRL + T
+        -On the above menu bar, there will be options, press the top right dot
+        -Copy x and y which will be your x1 y1 and in code will be first two params
+        -then click on right bottom param that will be your x2 y2 for the second two params
 
 -Angular Session Storage:
     -https://jsfiddle.net/gabrieleromanato/XLRAH/

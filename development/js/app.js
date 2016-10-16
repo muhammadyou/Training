@@ -29,7 +29,8 @@ angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.rou
                 url: '/NFVProgram',
                 views: {
                     'contentView' : {
-                        templateUrl: 'templates/NFVProgram.html'
+                        templateUrl: 'templates/NFVProgram.html',
+                        controller: "NFVProgramCtrl as vm"
                     }
                 }
 

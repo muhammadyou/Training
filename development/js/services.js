@@ -1,6 +1,6 @@
 angular.module("MyServices", [])
 
-    .factory("NFVCourseClickState", function() {
+    .factory("SessionStorage", function() {
         var name = "";
 
         return {
@@ -36,7 +36,7 @@ angular.module("MyServices", [])
 
                 ],
 
-                Linux: [
+                LinuxETandETVirtualization: [
                     {
                         Coursetitle: "Linux Essentials Certification",
                         sections: [
@@ -46,6 +46,32 @@ angular.module("MyServices", [])
                                     {title: "All", link: "https://linuxacademy.com/linux/training/course/name/linux-essentials"}
                                 ]
                             }
+
+                        ]
+                    },
+                    {
+                        Coursetitle: "Linux KVM Virtualization Essentials",
+                        sections: [
+                            {
+                                title: "Introduction",
+                                videos: [
+                                    {title: "All", link: "https://linuxacademy.com/linux/training/course/name/linux-kvm-virtualization"}
+                                ]
+                            },
+                            {
+                                title: "Virtualization",
+                                videos: [
+                                    {title: "All", link: "https://linuxacademy.com/linux/training/course/name/linux-kvm-virtualization"}
+                                ]
+                            },
+                            {
+                                title: "KVM Overview",
+                                videos: [
+                                    {title: "All", link: "https://linuxacademy.com/linux/training/course/name/linux-kvm-virtualization"}
+                                ]
+                            }
+
+
 
                         ]
                     }
@@ -179,18 +205,6 @@ angular.module("MyServices", [])
                 ],
 
                 LinuxETandETVirtualization: [
-                    {
-                        Coursetitle: "Linux KVM Virtualization Essentials",
-                        sections: [
-                            {
-                                title: "All",
-                                videos: [
-                                    {title: "All", link: "https://linuxacademy.com/linux/training/course/name/linux-kvm-virtualization"}
-                                ]
-                            }
-
-                        ]
-                    },
 
                     {
                         Coursetitle: "Linux Essentials Certification",
@@ -203,23 +217,23 @@ angular.module("MyServices", [])
                             }
 
                         ]
-                    }
-                ],
-
-                CloudETandETDevOps: [
-
+                    },
                     {
-                        Coursetitle: "DevOps Essentials",
+                        Coursetitle: "Linux KVM Virtualization Essentials",
                         sections: [
                             {
                                 title: "All",
                                 videos: [
-                                    {title: "All", link: "https://linuxacademy.com/devops/training/course/name/devops-essentials"}
+                                    {title: "All", link: "https://linuxacademy.com/linux/training/course/name/linux-kvm-virtualization"}
                                 ]
                             }
 
                         ]
-                    },
+                    }
+
+                ],
+
+                CloudETandETDevOps: [
 
                     {
                         Coursetitle: "CompTIA Cloud Essentials Certifications",
@@ -249,8 +263,20 @@ angular.module("MyServices", [])
                                 ]
                             }
                         ]
-                    }
+                    },
 
+                    {
+                        Coursetitle: "DevOps Essentials",
+                        sections: [
+                            {
+                                title: "All",
+                                videos: [
+                                    {title: "All", link: "https://linuxacademy.com/devops/training/course/name/devops-essentials"}
+                                ]
+                            }
+
+                        ]
+                    }
                 ],
 
 
@@ -383,7 +409,7 @@ angular.module("MyServices", [])
 
                 ],
 
-                Linux: [
+                LinuxETandETVirtualization: [
                     {
                         Coursetitle: "Linux Essentials Certification",
                         sections: [
@@ -393,6 +419,32 @@ angular.module("MyServices", [])
                                     {title: "All", link: "https://linuxacademy.com/linux/training/course/name/linux-essentials"}
                                 ]
                             }
+
+                        ]
+                    },
+                    {
+                        Coursetitle: "Linux KVM Virtualization Essentials",
+                        sections: [
+                            {
+                                title: "Introduction",
+                                videos: [
+                                    {title: "All", link: "https://linuxacademy.com/linux/training/course/name/linux-kvm-virtualization"}
+                                ]
+                            },
+                            {
+                                title: "Virtualization",
+                                videos: [
+                                    {title: "All", link: "https://linuxacademy.com/linux/training/course/name/linux-kvm-virtualization"}
+                                ]
+                            },
+                            {
+                                title: "KVM Overview",
+                                videos: [
+                                    {title: "All", link: "https://linuxacademy.com/linux/training/course/name/linux-kvm-virtualization"}
+                                ]
+                            }
+
+
 
                         ]
                     }

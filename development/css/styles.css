@@ -1,6 +1,10 @@
 html{
     overflow: hidden;  /* to remove the glitch from fixed background in IE */
     height: 100%;
+    position:relative;
+    min-height: 100%;
+    margin:0;
+    padding:0;
 }
 
 
@@ -13,11 +17,19 @@ html{
     src: url('../font/neo-tech.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
          url(../font/neo-tech.TTF) format('truetype');
 }
+
+@font-face {   /* for body */
+    font-family: "rotis";
+    src: url('../font/ROTISS55.TTF'); /* IE9 Compat Modes */
+    src: url(../font/ROTISS55.TTF) format('truetype'); /* IE6-IE8 */
+}
 body{
-    font-family: "neo-tech", Roboto, "Helvetica Neue", sans-serif;
+    font-family: "rotis", Roboto, "Helvetica Neue", sans-serif;
     font-weight:24px;
     overflow: auto;     /* to remove the glitch from fixed background in IE */
     height: 100%;
+    margin:0;
+    padding:0;
 }
 
 
@@ -27,10 +39,13 @@ body{
     font-weight:24px;
 }
 
-.engHeadFont{
-    font-family: "neo-tech", sans-serif;
-    font-weight: 900;
-    font-size: 25px;
+.bodyFont{
+    font-family: "rotis", sans-serif;
+}
+.stepsText{
+    font-family: "rotis", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
     color:white;
 }
 
@@ -39,17 +54,9 @@ body{
 }
 
 
-.greyfont{
-    color: #454343;
-}
-
 .orangeBg{
     background: #FF8000 !important;
     color:white;
-}
-
-.greenText {
-    color: #729e1a;
 }
 
 .marg-left-right{
@@ -84,32 +91,20 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
 }
 
 .boxShadow{
-    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 
 }
 
 /*--------------------------------------------Landing Page------------------------------------------------------------*/
 
 
-.ImageBg{
-
-    background-image: url('../img/fancy.png');
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-    width:100%;
-    min-height: 100%;
-}
-
 .header{
-    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
-.header h3 {
-    position: relative;
+.tagline{
+    font-size:20px;
 }
-
-
 .sahaabHeading{
     font-family: "neo-tech", sans-serif;
     font-weight: 900;
@@ -120,24 +115,14 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
     color:black;
 }
 
-.sahaabArab{
-    margin-top:20px;
-
-
-}
 
 .sahaabArab img{
     margin-left:-25px;
     width:150px;
-    margin-top:15px;
+    margin-top:25px;
 
 }
 
-.header img {
-    float: left;
-    margin-left:20px;
-    position:absolute
-}
 
 .roundBtn{
     margin-top:15px;
@@ -146,17 +131,25 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
     background-color: #FFA500 !important;
 }
 
+
+.iconsColor:hover{
+    color: #729e1a !important;
+}
+
 .homefab{
     background-color: #FFCC00 !important;
 }
 
 .contactfab{
-    background-color: #719E19 !important;
+    background-color: #719e19 !important;
 }
 
-
-.iconsColor:hover{
-    color: #729e1a !important;
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:35%;
 }
 /*-----------------------------------------Training Program Boxes ----------------*/
 
@@ -166,37 +159,61 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
 
 }
 
+.xoverflow{
+    overflow-x : hidden !important;
+
+}
+
 
 .trainingBtn{
     height: 74px !important;
     line-height: 74px !important;
     padding: 0px 40px !important;
     background-color: #FFA500 !important;
+    font-size: 18px !important;
+
 }
 
 .trainingBtn:hover{
     color:#729e1a !important;
 }
-.trainingBtnFont{
-    font-size: 18px !important;
 
-}
 
-/*-----------------------------------------------NFV and SDN Heading above tabs ------------------------------------------------*/
+
+/*-----------------------------------------------NFV Heading above tabs ------------------------------------------------*/
+
 .NFVSDNhead{
-    font-size:32px;
-}
-/*--------------------------------------------------NFV Program (learning Paths) -----------------------------------------------*/
+    font-size:28px !important;
+    font-weight: bold;
+    padding: 10px !important;
+    background: #D4D4D4 !important;
+    color: #616b1e !important;
 
-.firstblock:hover{
-    border:5px solid red;
 }
+/*--------------------------------------------------NFV Program (learning Paths and Tabs) -----------------------------------------------*/
+
+
+#toast-container {
+    top: auto !important;
+    right: 2% !important;
+    bottom: 10%;
+    left:65%;
+}
+
+.tabs .tab .highlightTab{
+    background-color:#7f7e80 !important;
+    color:white !important;
+    height:45px;
+    transition: background-color 1s linear;
+}
+
+
 .NFVContent{
     margin-top:55px;
 }
 
 .tabs .tab {
-    background-color: #FFCC00 !important;
+    background-color: #FFA500 !important;
 }
 .tabs .tab a{
     color: white !important;
@@ -204,6 +221,7 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
 
 .tabs .tab a:hover{
     color: #729e1a !important;
+    transition: color .75s ease!important;
 }
 
 .tabs .tab a{   /* removes underline from the tabs text */
@@ -211,14 +229,10 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
 }
 
 .tabs .indicator{   /* tabs underline color */
-    background-color: #729e1a !important;
+    background-color: #616b1e !important;
+    height:3px !important;
+
 }
-
-.course:hover{
-    background-color: black !important;
-}
-
-
 
 
 
@@ -229,14 +243,15 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
 
 .sectionHeadbg{
     background: #D4D4D4 !important;
-    color: #729e1a !important;
+    color: #616b1e !important;
     font-weight:bold;
+    font-size:18px;
     transition: background .75s ease!important;
 
 }
 
 .sectionHeadbg:hover{
-    background: grey !important;
+    background: #7f7e80 !important;
     color: #00FF00 !important;
 }
 

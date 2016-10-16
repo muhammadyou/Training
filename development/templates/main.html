@@ -1,68 +1,49 @@
 
 <div class="row boxShadow">
-
-    <div class="col m1">
-        <a href="http://etisalat.tech/sahaab">
-            <img src="img/logo.png" alt="logo" href="http://www.etisalat.tech/sahaab" />
+<!---------------------------------Etisalat Logo ----------------------------------------->
+    <div class="col l1 m1 s3">
+        <a href="http://etisalat.ae">
+            <img src="img/logo.png" class="responsive-img" alt="Etisalat UAE" href="http://www.etisalat.tech/sahaab" />
         </a>
 
     </div>
 
-    <div class="col m5">
+<!---------------------------------Sahaab Arabic and Cloudify text ----------------------------------------->
+    <div class="col l3 m3 s3">
         <a href="http://etisalat.tech/sahaab">
             <span class="pointer sahaabHeading ETfonts ">Cloudify the Network</span>
-            <h6 class="sahaabArab" ><img  src="img/sahaab.png"></h6>
+            <h6 class="sahaabArab" ><img  src="img/sahaab.png" class="responsive-img"></h6>
         </a>
 
     </div>
 
-    <div class="col m6">
+<!---------------------------------Program Name and tagline----------------------------------------->
+    <div class="col l4 m4 s12">
+        <div class="center-align">
+            <h4 class="ETfonts textShadow">Sahaab Training Program</h4>
+            <h5 class="bodyFont tagline">Step towards modernizing yourself</h5>
+
+        </div>
+
+    </div>
+
+<!---------------------------------Hamburger Menu button----------------------------------------->
+    <div class="col l4 m4 s6" >
         <div class="fixed-action-btn horizontal" style=" right: 24px; top:0px; bottom:100%;">
             <a class="btn-floating btn-large roundBtn">
                 <i class="material-icons iconsColor">menu</i>
             </a>
 
             <ul style="bottom:0px; top:15px;">
-                <li><a class="btn-floating homefab darken-1" ui-sref="main.home"><i class="material-icons">home</i></a></li>
-                <li><a class="btn-floating contactfab" href="mailto:sahaab@etisalat.ae"><i class="material-icons">email</i></a></li>
+                <li><a class="btn-floating homefab" ui-sref="main.home"><i class="material-icons">home</i></a></li>
+                <li><a class="btn-floating contactfab" href="mailto:abdualsuwaidi@etisalat.ae"><i class="material-icons">email</i></a></li>
             </ul>
         </div>
-
     </div>
-
-
-    <div class="col m12 ">
-        <div class="center-align">
-            <h4 class="ETfonts textShadow">Sahaab Training Program</h4>
-        </div>
-
-    </div>
-
 
 </div>
 
-
-<!--
-<span class="header">
-     <a class="btn-floating btn-large roundBtn">
-         <i class="material-icons iconsColor">menu</i>
-     </a>
-
-
-    <img src="img/logo.png" alt="logo" href="http://www.etisalat.tech/sahaab" />
-    <span class="pointer sahaabHeading">Cloudify the Network</span>
-    <h6 class="sahaabArab" ><img  src="img/sahaab.png"></h6>
-
-
-
-
-    <h3 class=" center-align ETfonts">NFV & SDN Training Program</h3>
-
-</span>
-
-
--->
-
+<!------------------------------------On top is the header and below is content --------------------------------------->
 <ui-view  name="contentView" ng-cloak></ui-view>
 
 
