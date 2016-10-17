@@ -190,6 +190,10 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
     color: #616b1e !important;
 
 }
+
+.greenText{
+    color: #BED30B;
+}
 /*--------------------------------------------------NFV Program (learning Paths and Tabs) -----------------------------------------------*/
 
 

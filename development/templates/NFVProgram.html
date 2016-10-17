@@ -9,27 +9,28 @@
 
                 <div class="row">
                     <div class="col m12">
-                        <h5 class="stepsText ">Please select your section, then the assigned class to your section will be highlighted </h5>
+                        <h5 class="stepsText ">Please select your section, then the assigned class to your section will be highlighted. <span class="greenText"><b>All Management (Manager and above) are assigned to Cloud for Everyone and Management learning path. </b> </span> </h5>
                     </div>
                     <div class="col m12 center">
-                        <a class='dropdown-button btn btn-large trainingBtn' href='javascript:void(0);' data-activates='demoDropdown' dropdown data-hover="true">
+                        <a class='dropdown-button btn btn-large trainingBtn hoverable' href='javascript:void(0);' data-activates='demoDropdown' dropdown>
                             Select your Section
                         </a>
 
                         <!-- Dropdown Structure -->
                         <ul id='demoDropdown' class='dropdown-content'>
                             <li  ng-repeat="value in vm.sections">
-                                <a  ng-click="vm.setClassforSection($index)" toast='click' message={{value.details}} duration="5000">{{value.section}}</a>
+                                <a  ng-click="vm.setClassforSection($index)">{{value.section}}</a>
                             </li>
+
                         </ul>
+
+                        <h5 class="bodyFont animated bounce">{{vm.sections[vm.selectedSectIndex].details}}</h5>
 
                     </div>
 
 
+
                 </div>  <!-- end of row --->
-
-
-
 
 
 
@@ -37,7 +38,7 @@
 
                 <div class="row">
                     <h4 class="ETfonts">
-                        Classes
+                        Learning Paths
                     </h4>
                     <div class="col s12">
                         <ul tabs reload="allTabContentLoaded">

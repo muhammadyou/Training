@@ -17,15 +17,15 @@ angular.module("MyControllers", [])
 
         this.selectedSectIndex = null;
         this.sections = [
-            {section: "Emerging Technologies",  category:"Telco Cloud and Automation", details: 'You are assigned to Telco Cloud and Automation class. Please "click" on it and follow the learning steps provided for your class'},
-            {section: "Network Automation",  category:"Telco Cloud and Automation", details: 'You are assigned to Telco Cloud and Automation class. Please "click" on it and follow the learning steps provided for your class'},
-            {section: "Broadband Services",  category:"VNF Owners", details: 'You are assigned to VNF Owners class. Please "click" on it and follow the learning steps provided for your class'},
-            {section: "Fixed and Mobile Core Planning",  category:"VNF Owners", details: 'You are assigned to VNF Owners class. Please "click" on it and follow the learning steps provided for your class'},
-            {section: "Network Analysis and Business Planning",  category:"VNF Owners", details: 'You are assigned to VNF Owners class. Please "click" on it and follow the learning steps provided for your class'},
-            {section: "Service Quality Management",  category:"Cloud for Everyone & Management", details: 'You are assigned to Cloud for Everyone & Management class. Please "click" on it and follow the learning steps provided for your class'},
-            {section: "ND Projects",  category:"Cloud for Everyone & Management", details: 'You are assigned to Cloud for Everyone & Management class. Please "click" on it and follow the learning steps provided for your class'},
-            {section: "Business Development & Delivery Management",  category:"Cloud for Everyone & Management", details: 'You are assigned to Cloud for Everyone & Management class. Please "click" on it and follow the learning steps provided for your class'},
-            {section: "Network Infrastructure Development",  category:"Cloud for Everyone & Management", details: 'You are assigned to Cloud for Everyone & Management class. Please "click" on it and follow the learning steps provided for your class'}
+            {section: "Emerging Technologies",  category:"Telco Cloud and Automation", details: 'You are assigned to Telco Cloud and Automation class. Please "click" on it and follow the learning path'},
+            {section: "Network Automation",  category:"Telco Cloud and Automation", details: 'You are assigned to Telco Cloud and Automation class. Please "click" on it and follow the learning path'},
+            {section: "Broadband Services",  category:"VNF Owners", details: 'You are assigned to VNF Owners class. Please "click" on it and follow the learning path'},
+            {section: "Fixed and Mobile Core Planning",  category:"VNF Owners", details: 'You are assigned to VNF Owners class. Please "click" on it and follow the learning path'},
+            {section: "Network Analysis and Business Planning",  category:"VNF Owners", details: 'You are assigned to VNF Owners class. Please "click" on it and follow the learning path'},
+            {section: "Service Quality Management",  category:"Cloud for Everyone & Management", details: 'You are assigned to Cloud for Everyone & Management class. Please "click" on it and follow the learning path'},
+            {section: "ND Projects",  category:"Cloud for Everyone & Management", details: 'You are assigned to Cloud for Everyone & Management class. Please "click" on it and follow the learning path'},
+            {section: "Business Development & Delivery Management",  category:"Cloud for Everyone & Management", details: 'You are assigned to Cloud for Everyone & Management class. Please "click" on it and follow the learning path'},
+            {section: "Network Infrastructure Development",  category:"Cloud for Everyone & Management", details: 'You are assigned to Cloud for Everyone & Management class. Please "click" on it and follow the learning path'}
         ]
 
         this.setClassforSection = function(index){
