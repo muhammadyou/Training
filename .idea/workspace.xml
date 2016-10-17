@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5e4d435-f7c8-485e-a211-56405d66ec14" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.min.css" afterPath="$PROJECT_DIR$/css/styles.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/css/styles.css" afterPath="$PROJECT_DIR$/development/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/js/app.js" afterPath="$PROJECT_DIR$/development/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/js/controllers.js" afterPath="$PROJECT_DIR$/development/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/templates/NFVProgram.html" afterPath="$PROJECT_DIR$/development/templates/NFVProgram.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/templates/main.html" afterPath="$PROJECT_DIR$/development/templates/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.min.js" afterPath="$PROJECT_DIR$/js/app.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/NFVProgram.html" afterPath="$PROJECT_DIR$/templates/NFVProgram.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/main.html" afterPath="$PROJECT_DIR$/templates/main.html" />
     </list>
     <ignored path="NFV_SDNTraining.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/development/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42780748">
+            <state vertical-scroll-proportion="-6.4">
               <caret line="10" column="156" selection-start-line="10" selection-start-column="148" selection-end-line="10" selection-end-column="156" />
               <folding />
             </state>
@@ -86,17 +78,17 @@
         <entry file="file://$PROJECT_DIR$/development/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NFVProgram.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NFVProgram.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/development/templates/NFVProgram.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.64171124">
+              <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -136,11 +128,11 @@
         <option value="$PROJECT_DIR$/development/templates/NfvCourses.html" />
         <option value="$PROJECT_DIR$/development/templates/main.html" />
         <option value="$PROJECT_DIR$/development/css/styles.css" />
-        <option value="$PROJECT_DIR$/development/templates/NFVProgram.html" />
-        <option value="$PROJECT_DIR$/development/js/controllers.js" />
         <option value="$PROJECT_DIR$/development/js/app.js" />
         <option value="$PROJECT_DIR$/development/index.html" />
         <option value="$PROJECT_DIR$/development/templates/home.html" />
+        <option value="$PROJECT_DIR$/development/js/controllers.js" />
+        <option value="$PROJECT_DIR$/development/templates/NFVProgram.html" />
       </list>
     </option>
   </component>
@@ -180,8 +172,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,6 +201,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NFV_SDNTraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NFV_SDNTraining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,6 +302,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -742,14 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/development/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/development/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -766,18 +764,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/development/templates/NFVProgram.html">
+    <entry file="file://$PROJECT_DIR$/development/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state vertical-scroll-proportion="-6.4">
+          <caret line="10" column="156" selection-start-line="10" selection-start-column="148" selection-end-line="10" selection-end-column="156" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/development/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/development/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42780748">
-          <caret line="10" column="156" selection-start-line="10" selection-start-column="148" selection-end-line="10" selection-end-column="156" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/development/templates/NFVProgram.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64171124">
+          <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
           <folding />
         </state>
       </provider>
