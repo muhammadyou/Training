@@ -7,9 +7,7 @@ angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.rou
             .state('main', {  // loads the static content which is the logo and top heading
                 views: {
                     'startView' : {
-                        templateUrl: 'templates/main.html',
-                        controller: 'MainCtrl as vm'
-
+                        templateUrl: 'templates/main.html'
                     }
                 }
 
@@ -37,11 +35,48 @@ angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.rou
             })
 
 
+            // Learninng Paths States
+
+            .state('main.nfvProgram.TelcoAutoLearningPth', {  //Courses Details for a specific area
+                url: '/TelcoAutoCourses/LearningPath',
+                views: {
+                    'learningPathView' : {
+                        templateUrl: 'templates/TelcoAutoLearningPath.html'
+                    }
+                }
+
+            })
+
+            .state('main.nfvProgram.VNFOwnLearningPth', {  //Courses Details for a specific area
+                url: '/VNFOwn/LearningPath',
+                views: {
+                    'learningPathView' : {
+                        templateUrl: 'templates/VNFOwnLearningPath.html'
+                    }
+                }
+
+            })
+
+
+            .state('main.nfvProgram.EveryoneLearningPth', {  //Courses Details for a specific area
+                url: '/Everyone/LearningPath',
+                views: {
+                    'learningPathView' : {
+                        templateUrl: 'templates/EveryoneLearningPath.html'
+                    }
+                }
+
+            })
+
+
+
+
+            // Courses States
 
             .state('main.nfvProgram.TelcoAutoCourses', {  //Courses Details for a specific area
                 url: '/TelcoAutoCourses',
                 views: {
-                    'TelcoCourseView' : {
+                    'learningPathView' : {
                         templateUrl: 'templates/NfvCourses.html',
                         controller: 'NFVCoursesCtrl as vm'
                     }
@@ -53,7 +88,7 @@ angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.rou
             .state('main.nfvProgram.VNFOwnCourses', {  //Courses Details for a specific area
                 url: '/VNFOwnCourses',
                 views: {
-                    'VNFOwnCoursView' : {
+                    'learningPathView' : {
                         templateUrl: 'templates/NfvCourses.html',
                         controller: 'VNFOwnCoursesCtrl as vm'
                     }
@@ -64,7 +99,7 @@ angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.rou
             .state('main.nfvProgram.CloudEveryone', {  //Courses Details for a specific area
                 url: '/CloudForEveryoneAndManagement',
                 views: {
-                    'CloudEveryoneView' : {
+                    'learningPathView' : {
                         templateUrl: 'templates/NfvCourses.html',
                         controller: 'CloudEveryoneCtrl as vm'
                     }

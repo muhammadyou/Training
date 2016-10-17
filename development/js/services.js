@@ -23,7 +23,7 @@ angular.module("MyServices", [])
             CloudEveryone: {
                 IntroductionETtoETLinuxETAcademy: [
                     {
-                        Coursetitle: "Introduction to Linux Academy",
+                        Coursetitle: "Phase 1: Introduction to Linux Academy",
                         sections: [
                             {
                                 title: "All",
@@ -38,7 +38,7 @@ angular.module("MyServices", [])
 
                 LinuxETandETVirtualization: [
                     {
-                        Coursetitle: "Linux Essentials Certification",
+                        Coursetitle: "Phase 1: Linux Essentials Certification",
                         sections: [
                             {
                                 title: "All",
@@ -50,7 +50,7 @@ angular.module("MyServices", [])
                         ]
                     },
                     {
-                        Coursetitle: "Linux KVM Virtualization Essentials",
+                        Coursetitle: "Phase 1: Linux KVM Virtualization Essentials",
                         sections: [
                             {
                                 title: "Introduction",
@@ -80,7 +80,7 @@ angular.module("MyServices", [])
                 CloudETandETDevOps: [
 
                     {
-                        Coursetitle: "DevOps Essentials",
+                        Coursetitle: "Phase 1: DevOps Essentials",
                         sections: [
                             {
                                 title: "All",
@@ -93,7 +93,7 @@ angular.module("MyServices", [])
                     },
 
                     {
-                        Coursetitle: "CompTIA Cloud Essentials Certifications",
+                        Coursetitle: "Phase 1: CompTIA Cloud Essentials Certifications",
                         sections: [
                             {
                                 title: "Characteristics of cloud services from a business perspective",
@@ -122,7 +122,7 @@ angular.module("MyServices", [])
 
                 OpenStack: [
                     {
-                        Coursetitle: "Openstack Essentials",
+                        Coursetitle: "Phase 1: Openstack Essentials",
                         sections: [
                             {
                                 title: "All",
@@ -139,7 +139,7 @@ angular.module("MyServices", [])
 
                 Scripting: [
                     {
-                        Coursetitle: "Introduction to Python to Linux",
+                        Coursetitle: "Phase 1: Introduction to Python to Linux",
                         sections: [
                             {
                                 title: "Introduction to Python to Linux",
@@ -152,7 +152,7 @@ angular.module("MyServices", [])
                     },
 
                     {
-                        Coursetitle: "The System Administrator's Guide to Bash Scripting",
+                        Coursetitle: "Phase 1: The System Administrator's Guide to Bash Scripting",
                         sections: [
                             {
                                 title: "Introduction",
@@ -191,7 +191,7 @@ angular.module("MyServices", [])
             TelcoAuto: {
                 IntroductionETtoETLinuxETAcademy: [
                     {
-                        Coursetitle: "Introduction to Linux Academy",
+                        Coursetitle: "Phase 1: Introduction to Linux Academy",
                         sections: [
                             {
                                 title: "All",
@@ -207,7 +207,7 @@ angular.module("MyServices", [])
                 LinuxETandETVirtualization: [
 
                     {
-                        Coursetitle: "Linux Essentials Certification",
+                        Coursetitle: "Phase 1: Linux Essentials Certification",
                         sections: [
                             {
                                 title: "All",
@@ -219,7 +219,7 @@ angular.module("MyServices", [])
                         ]
                     },
                     {
-                        Coursetitle: "Linux KVM Virtualization Essentials",
+                        Coursetitle: "Phase 1: Linux KVM Virtualization Essentials",
                         sections: [
                             {
                                 title: "All",
@@ -236,7 +236,7 @@ angular.module("MyServices", [])
                 CloudETandETDevOps: [
 
                     {
-                        Coursetitle: "CompTIA Cloud Essentials Certifications",
+                        Coursetitle: "Phase 1: CompTIA Cloud Essentials Certifications",
                         sections: [
                             {
                                 title: "Characteristics of cloud services from a business perspective",
@@ -266,7 +266,7 @@ angular.module("MyServices", [])
                     },
 
                     {
-                        Coursetitle: "DevOps Essentials",
+                        Coursetitle: "Phase 1: DevOps Essentials",
                         sections: [
                             {
                                 title: "All",
@@ -283,7 +283,7 @@ angular.module("MyServices", [])
 
                 OpenStack: [
                     {
-                        Coursetitle: "Openstack Essentials",
+                        Coursetitle: "Phase 1: Openstack Essentials",
                         sections: [
                             {
                                 title: "All",
@@ -296,7 +296,7 @@ angular.module("MyServices", [])
                     },
 
                     {
-                        Coursetitle: "Openstack Foundation Certified Openstack Administrator",
+                        Coursetitle: "Phase 2: Openstack Foundation Certified Openstack Administrator",
                         sections: [
                             {
                                 title: "All",
@@ -313,7 +313,7 @@ angular.module("MyServices", [])
 
                 Scripting: [
                     {
-                        Coursetitle: "Introduction to Python to Linux",
+                        Coursetitle: "Phase 2: Introduction to Python to Linux",
                         sections: [
                             {
                                 title: "All",
@@ -326,7 +326,7 @@ angular.module("MyServices", [])
                     },
 
                     {
-                        Coursetitle: "The System Administrator's Guide to Bash Scripting",
+                        Coursetitle: "Phase 2: The System Administrator's Guide to Bash Scripting",
                         sections: [
                             {
                                 title: "All",
@@ -343,7 +343,7 @@ angular.module("MyServices", [])
                 VersionETControlETSystem: [
 
                     {
-                        Coursetitle: "Git Quick Start",
+                        Coursetitle: "Phase 2: Git Quick Start",
                         sections: [
                             {
                                 title: "All",
@@ -357,7 +357,7 @@ angular.module("MyServices", [])
 
 
                     {
-                        Coursetitle: "Git and Git lab - Start to Finish",
+                        Coursetitle: "Phase 2: Git and Git lab - Start to Finish",
                         sections: [
                             {
                                 title: "Working with Atlassian Bitbucket",
@@ -396,7 +396,7 @@ angular.module("MyServices", [])
             VNFOwn: {
                 IntroductionETtoETLinuxETAcademy: [
                     {
-                        Coursetitle: "Introduction to Linux Academy",
+                        Coursetitle: "Phase 1: Introduction to Linux Academy",
                         sections: [
                             {
                                 title: "All",
@@ -411,7 +411,7 @@ angular.module("MyServices", [])
 
                 LinuxETandETVirtualization: [
                     {
-                        Coursetitle: "Linux Essentials Certification",
+                        Coursetitle: "Phase 1: Linux Essentials Certification",
                         sections: [
                             {
                                 title: "All",
@@ -423,7 +423,7 @@ angular.module("MyServices", [])
                         ]
                     },
                     {
-                        Coursetitle: "Linux KVM Virtualization Essentials",
+                        Coursetitle: "Phase 1: Linux KVM Virtualization Essentials",
                         sections: [
                             {
                                 title: "Introduction",
@@ -453,7 +453,7 @@ angular.module("MyServices", [])
                 CloudETandETDevOps: [
 
                     {
-                        Coursetitle: "DevOps Essentials",
+                        Coursetitle: "Phase 1: DevOps Essentials",
                         sections: [
                             {
                                 title: "All",
@@ -466,7 +466,7 @@ angular.module("MyServices", [])
                     },
 
                     {
-                        Coursetitle: "CompTIA Cloud Essentials Certifications",
+                        Coursetitle: "Phase 1: CompTIA Cloud Essentials Certifications",
                         sections: [
                             {
                                 title: "Characteristics of cloud services from a business perspective",
@@ -501,7 +501,7 @@ angular.module("MyServices", [])
 
                 OpenStack: [
                     {
-                        Coursetitle: "Openstack Essentials",
+                        Coursetitle: "Phase 1: Openstack Essentials",
                         sections: [
                             {
                                 title: "All",
@@ -514,7 +514,7 @@ angular.module("MyServices", [])
                     },
 
                     {
-                        Coursetitle: "Openstack Foundation Certified Openstack Administrator",
+                        Coursetitle: "Phase 2: Openstack Foundation Certified Openstack Administrator",
                         sections: [
                             {
                                 title: "All",
@@ -531,7 +531,7 @@ angular.module("MyServices", [])
 
                 Scripting: [
                     {
-                        Coursetitle: "Introduction to Python to Linux",
+                        Coursetitle: "Phase 2: Introduction to Python to Linux",
                         sections: [
                             {
                                 title: "All",
@@ -544,7 +544,7 @@ angular.module("MyServices", [])
                     },
 
                     {
-                        Coursetitle: "The System Administrator's Guide to Bash Scripting",
+                        Coursetitle: "Phase 2: The System Administrator's Guide to Bash Scripting",
                         sections: [
                             {
                                 title: "All",
@@ -561,7 +561,7 @@ angular.module("MyServices", [])
                 VersionETControlETSystem: [
 
                     {
-                        Coursetitle: "Git Quick Start",
+                        Coursetitle: "Phase 2: Git Quick Start",
                         sections: [
                             {
                                 title: "All",
@@ -575,7 +575,7 @@ angular.module("MyServices", [])
 
 
                     {
-                        Coursetitle: "Git and Git lab - Start to Finish",
+                        Coursetitle: "Phase 2: Git and Git lab - Start to Finish",
                         sections: [
                             {
                                 title: "Working with Atlassian Bitbucket",

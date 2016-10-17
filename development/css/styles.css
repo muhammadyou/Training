@@ -168,7 +168,7 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
 .trainingBtn{
     height: 74px !important;
     line-height: 74px !important;
-    padding: 0px 40px !important;
+    padding: 0px 40px  !important;
     background-color: #FFA500 !important;
     font-size: 18px !important;
 
@@ -196,6 +196,9 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
 }
 /*--------------------------------------------------NFV Program (learning Paths and Tabs) -----------------------------------------------*/
 
+.tabBorder{
+    border-bottom: 3px solid green;
+}
 
 #toast-container {
     top: auto !important;
@@ -207,7 +210,7 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
 .tabs .tab .highlightTab{
     background-color:#7f7e80 !important;
     color:white !important;
-    height:45px;
+    height:47.5px;
     transition: background-color 1s linear;
 }
 
