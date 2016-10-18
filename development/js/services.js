@@ -16,6 +16,40 @@ angular.module("MyServices", [])
 
     })
 
+    .factory("LearningPaths", function(){
+        var data  = [
+            {title: "Telco Cloud and Automation", state: "main.nfvProgram.TelcoAutoLearningPth"},
+            {title: "VNF Owners", state: "main.nfvProgram.VNFOwnLearningPth"},
+            {title: "Cloud for Everyone & Management", state: "main.nfvProgram.EveryoneLearningPth"}
+        ]
+
+        return {
+            get: function(){
+                return data;
+            }
+        }
+    })
+
+    .factory("SectionsInDropdown", function(){
+        var data = [
+            {section: "Emerging Technologies", link:"main.nfvProgram.TelcoAutoLearningPth",  learningPath:"Telco Cloud and Automation", details: 'You are assigned to Telco Cloud and Automation learning path. Please "click" on it to follow the steps'},
+            {section: "Network Automation", link:"main.nfvProgram.TelcoAutoLearningPth", learningPath:"Telco Cloud and Automation", details: 'You are assigned to Telco Cloud and Automation learning path. Please "click" on it and follow the steps'},
+            {section: "Broadband Services", link:"main.nfvProgram.VNFOwnLearningPth", learningPath:"VNF Owners", details: 'You are assigned to VNF Owners learning path. Please "click" on it to follow the steps'},
+            {section: "Fixed and Mobile Core Planning", link:"main.nfvProgram.VNFOwnLearningPth", learningPath:"VNF Owners", details: 'You are assigned to VNF Owners learning path. Please "click" on it to follow the steps'},
+            {section: "Network Analysis and Business Planning", link:"main.nfvProgram.VNFOwnLearningPth", learningPath:"VNF Owners", details: 'You are assigned to VNF Owners learning path. Please "click" on it to follow the steps'},
+            {section: "Service Quality Management", link:"main.nfvProgram.EveryoneLearningPth", learningPath:"Cloud for Everyone & Management", details: 'You are assigned to Cloud for Everyone & Management learning path. Please "click" on it to follow the steps'},
+            {section: "ND Projects", link:"main.nfvProgram.EveryoneLearningPth", learningPath:"Cloud for Everyone & Management", details: 'You are assigned to Cloud for Everyone & Management learning path. Please "click" on it to follow the steps'},
+            {section: "Business Development & Delivery Management", link:"main.nfvProgram.EveryoneLearningPth", learningPath:"Cloud for Everyone & Management", details: 'You are assigned to Cloud for Everyone & Management learning path. Please "click" on it to follow the steps'},
+            {section: "Network Infrastructure Development", link:"main.nfvProgram.EveryoneLearningPth", learningPath:"Cloud for Everyone & Management", details: 'You are assigned to Cloud for Everyone & Management learning path. Please "click" on it to follow the steps'}
+        ];
+
+        return{
+            get: function(){
+                return data;
+            }
+        }
+    })
+
 
     .factory("CloudEveryoneCourses", function() {
 
