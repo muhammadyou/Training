@@ -53,7 +53,9 @@ body{
     outline: none;
 }
 
-
+a{
+    outline: 0;
+}
 .orangeBg{
     background: #FF8000 !important;
     color:white;
