@@ -3,24 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c5e4d435-f7c8-485e-a211-56405d66ec14" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/js/app.js" afterPath="$PROJECT_DIR$/development/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/js/controllers.js" afterPath="$PROJECT_DIR$/development/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/js/services.js" afterPath="$PROJECT_DIR$/development/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/templates/EveryoneLearningPath.html" afterPath="$PROJECT_DIR$/development/templates/EveryoneLearningPath.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/templates/NFVProgram.html" afterPath="$PROJECT_DIR$/development/templates/NFVProgram.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/templates/NfvCourses.html" afterPath="$PROJECT_DIR$/development/templates/NfvCourses.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/templates/TelcoAutoLearningPath.html" afterPath="$PROJECT_DIR$/development/templates/TelcoAutoLearningPath.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/templates/VNFOwnLearningPath.html" afterPath="$PROJECT_DIR$/development/templates/VNFOwnLearningPath.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/templates/home.html" afterPath="$PROJECT_DIR$/development/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/templates/main.html" afterPath="$PROJECT_DIR$/development/templates/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.min.js" afterPath="$PROJECT_DIR$/js/app.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/EveryoneLearningPath.html" afterPath="$PROJECT_DIR$/templates/EveryoneLearningPath.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/NFVProgram.html" afterPath="$PROJECT_DIR$/templates/NFVProgram.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/NfvCourses.html" afterPath="$PROJECT_DIR$/templates/NfvCourses.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/TelcoAutoLearningPath.html" afterPath="$PROJECT_DIR$/templates/TelcoAutoLearningPath.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/VNFOwnLearningPath.html" afterPath="$PROJECT_DIR$/templates/VNFOwnLearningPath.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/main.html" afterPath="$PROJECT_DIR$/templates/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.min.css" afterPath="$PROJECT_DIR$/css/styles.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/development/css/styles.css" afterPath="$PROJECT_DIR$/development/css/styles.css" />
     </list>
     <ignored path="NFV_SDNTraining.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +38,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/development/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.56">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
@@ -71,21 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NfvCourses.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/development/templates/NfvCourses.html">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/development/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="9.36">
-              <caret line="11" column="175" selection-start-line="11" selection-start-column="175" selection-end-line="11" selection-end-column="175" />
+            <state vertical-scroll-proportion="-2.56">
+              <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/development/templates/home.html">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/development/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16284987">
-              <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.68085104">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -94,7 +78,7 @@
       <file leaf-file-name="NFVProgram.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/development/templates/NFVProgram.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.92">
+            <state vertical-scroll-proportion="0.0">
               <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
@@ -104,7 +88,7 @@
       <file leaf-file-name="TelcoAutoLearningPath.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/development/templates/TelcoAutoLearningPath.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.32">
+            <state vertical-scroll-proportion="0.0">
               <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
@@ -114,7 +98,7 @@
       <file leaf-file-name="VNFOwnLearningPath.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/development/templates/VNFOwnLearningPath.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.24">
+            <state vertical-scroll-proportion="0.0">
               <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
@@ -124,7 +108,7 @@
       <file leaf-file-name="EveryoneLearningPath.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/development/templates/EveryoneLearningPath.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.8333333">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="27" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="27" />
               <folding />
             </state>
@@ -134,7 +118,7 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/development/templates/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.1666665">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
@@ -163,7 +147,6 @@
         <option value="$PROJECT_DIR$/development/templates/VNFOwnCourses.html" />
         <option value="$PROJECT_DIR$/development/templates/NfvTelcoCourses.html" />
         <option value="$PROJECT_DIR$/notes" />
-        <option value="$PROJECT_DIR$/development/css/styles.css" />
         <option value="$PROJECT_DIR$/development/templates/TelcoAutoLearningPath.html" />
         <option value="$PROJECT_DIR$/development/templates/VNFOwnLearningPath.html" />
         <option value="$PROJECT_DIR$/development/templates/EveryoneLearningPath.html" />
@@ -175,6 +158,7 @@
         <option value="$PROJECT_DIR$/development/js/app.js" />
         <option value="$PROJECT_DIR$/development/templates/main.html" />
         <option value="$PROJECT_DIR$/development/templates/home.html" />
+        <option value="$PROJECT_DIR$/development/css/styles.css" />
       </list>
     </option>
   </component>
@@ -214,7 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,7 +240,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="development" />
+              <option name="myItemId" value="font" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,46 +251,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="NFV_SDNTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="development" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NFV_SDNTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NFV_SDNTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="development" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NFV_SDNTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NFV_SDNTraining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="development" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -317,6 +260,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -328,12 +272,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sahaabMDL" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Yousuf\WebstormProjects\NFV_SDNTraining\font" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Yousuf\WebstormProjects\NFV_SDNTraining\font" />
       <recent name="C:\Users\Yousuf\WebstormProjects\NFV_SDNTraining\img" />
       <recent name="C:\Users\Yousuf\WebstormProjects\NFV_SDNTraining" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yousuf\WebstormProjects\NFV_SDNTraining\font" />
     </key>
   </component>
   <component name="RunManager">
@@ -407,18 +352,18 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25078863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -704,24 +649,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/development/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3316062">
-          <caret line="44" column="10" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/development/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="78" column="31" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/development/templates/NfvCourses.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.36">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="175" selection-start-line="11" selection-start-column="175" selection-end-line="11" selection-end-column="175" />
           <folding />
         </state>
@@ -729,7 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/development/templates/NFVProgram.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.92">
+        <state vertical-scroll-proportion="0.0">
           <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
@@ -737,7 +674,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/development/templates/TelcoAutoLearningPath.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.32">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
@@ -745,7 +682,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/development/templates/VNFOwnLearningPath.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.24">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
@@ -761,7 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/development/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.56">
+        <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
@@ -769,7 +706,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/development/templates/EveryoneLearningPath.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8333333">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="27" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="27" />
           <folding />
         </state>
@@ -785,7 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/development/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.1666665">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
@@ -795,8 +732,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/development/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16284987">
+        <state vertical-scroll-proportion="-2.56">
           <caret line="4" column="75" selection-start-line="4" selection-start-column="75" selection-end-line="4" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/development/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68085104">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding />
         </state>
       </provider>

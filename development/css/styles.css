@@ -20,8 +20,9 @@ html{
 
 @font-face {   /* for body */
     font-family: "rotis";
-    src: url('../font/ROTISS55.TTF'); /* IE9 Compat Modes */
-    src: url(../font/ROTISS55.TTF) format('truetype'); /* IE6-IE8 */
+    src: url('../font/ROTISS55.eot'); /* IE9 Compat Modes */
+    src: url('../font/ROTISS55.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url(../font/ROTISS55.ttf) format('truetype'); /* IE6-IE8 */
 }
 body{
     font-family: "rotis", Roboto, "Helvetica Neue", sans-serif;
