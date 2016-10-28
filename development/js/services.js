@@ -18,7 +18,7 @@ angular.module("MyServices", [])
 
     .factory("LearningPaths", function(){
         var data  = [
-            {title: "Telco Cloud and Automation", state: "main.nfvProgram.TelcoAutoLearningPth"},
+            {title: "Telco Cloud & Automation", state: "main.nfvProgram.TelcoAutoLearningPth"},
             {title: "VNF Owners", state: "main.nfvProgram.VNFOwnLearningPth"},
             {title: "Cloud for Everyone & Management", state: "main.nfvProgram.EveryoneLearningPth"}
         ]
@@ -32,8 +32,8 @@ angular.module("MyServices", [])
 
     .factory("SectionsInDropdown", function(){
         var data = [
-            {section: "Emerging Technologies", link:"main.nfvProgram.TelcoAutoLearningPth",  learningPath:"Telco Cloud and Automation", details: 'You are assigned to Telco Cloud and Automation learning path. Please "click" on it to follow the steps'},
-            {section: "Network Automation", link:"main.nfvProgram.TelcoAutoLearningPth", learningPath:"Telco Cloud and Automation", details: 'You are assigned to Telco Cloud and Automation learning path. Please "click" on it and follow the steps'},
+            {section: "Emerging Technologies", link:"main.nfvProgram.TelcoAutoLearningPth",  learningPath:"Telco Cloud & Automation", details: 'You are assigned to Telco Cloud and Automation learning path. Please "click" on it to follow the steps'},
+            {section: "Network Automation", link:"main.nfvProgram.TelcoAutoLearningPth", learningPath:"Telco Cloud & Automation", details: 'You are assigned to Telco Cloud and Automation learning path. Please "click" on it and follow the steps'},
             {section: "Broadband Services", link:"main.nfvProgram.VNFOwnLearningPth", learningPath:"VNF Owners", details: 'You are assigned to VNF Owners learning path. Please "click" on it to follow the steps'},
             {section: "Fixed and Mobile Core Planning", link:"main.nfvProgram.VNFOwnLearningPth", learningPath:"VNF Owners", details: 'You are assigned to VNF Owners learning path. Please "click" on it to follow the steps'},
             {section: "Network Analysis and Business Planning", link:"main.nfvProgram.VNFOwnLearningPth", learningPath:"VNF Owners", details: 'You are assigned to VNF Owners learning path. Please "click" on it to follow the steps'},
@@ -127,10 +127,16 @@ angular.module("MyServices", [])
                     },
 
                     {
-                        Coursetitle: "Phase 1: CompTIA Cloud Essentials Certifications",
+                        Coursetitle: "Phase 1: CompTIA Cloud Essentials Certification",
                         sections: [
                             {
                                 title: "Characteristics of cloud services from a business perspective",
+                                videos: [
+                                    {title: "All", link: "https://linuxacademy.com/linux/training/course/name/cloud-essentials"}
+                                ]
+                            },
+                            {
+                                title: "Cloud Computing and Business Value",
                                 videos: [
                                     {title: "All", link: "https://linuxacademy.com/linux/training/course/name/cloud-essentials"}
                                 ]
@@ -142,7 +148,13 @@ angular.module("MyServices", [])
                                 ]
                             },
                             {
-                                title: "Understanding the impact and changes of cloud computing on IT service management in a typical organization",
+                                title: "Impact of Cloud Computing on IT Service Management",
+                                videos: [
+                                    {title: "All", link: "https://linuxacademy.com/linux/training/course/name/cloud-essentials"}
+                                ]
+                            },
+                            {
+                                title: "Risks and Consequences of Cloud Computing",
                                 videos: [
                                     {title: "All", link: "https://linuxacademy.com/linux/training/course/name/cloud-essentials"}
                                 ]
@@ -270,7 +282,7 @@ angular.module("MyServices", [])
                 CloudETandETDevOps: [
 
                     {
-                        Coursetitle: "Phase 1: CompTIA Cloud Essentials Certifications",
+                        Coursetitle: "Phase 1: CompTIA Cloud Essentials Certification",
                         sections: [
                             {
                                 title: "Characteristics of cloud services from a business perspective",
@@ -291,7 +303,7 @@ angular.module("MyServices", [])
                                 ]
                             },
                             {
-                                title: "Understanding the impact and changes of cloud computing on IT service management in a typical organization",
+                                title: "Impact of Cloud Computing on IT Service Management",
                                 videos: [
                                     {title: "All", link: "https://linuxacademy.com/linux/training/course/name/cloud-essentials"}
                                 ]
@@ -393,6 +405,12 @@ angular.module("MyServices", [])
                     {
                         Coursetitle: "Phase 2: Git and Git lab - Start to Finish",
                         sections: [
+                            {
+                                title: "Working with Github",
+                                videos: [
+                                    {title: "All", link: "https://linuxacademy.com/linux/training/course/name/git-gitlab"}
+                                ]
+                            },
                             {
                                 title: "Working with Atlassian Bitbucket",
                                 videos: [
@@ -500,7 +518,7 @@ angular.module("MyServices", [])
                     },
 
                     {
-                        Coursetitle: "Phase 1: CompTIA Cloud Essentials Certifications",
+                        Coursetitle: "Phase 1: CompTIA Cloud Essentials Certification",
                         sections: [
                             {
                                 title: "Characteristics of cloud services from a business perspective",
@@ -521,7 +539,7 @@ angular.module("MyServices", [])
                                 ]
                             },
                             {
-                                title: "Understanding the impact and changes of cloud computing on IT service management in a typical organization",
+                                title: "Impact of Cloud Computing on IT Service Management",
                                 videos: [
                                     {title: "All", link: "https://linuxacademy.com/linux/training/course/name/cloud-essentials"}
                                 ]
@@ -611,6 +629,12 @@ angular.module("MyServices", [])
                     {
                         Coursetitle: "Phase 2: Git and Git lab - Start to Finish",
                         sections: [
+                            {
+                                title: "Working with Github",
+                                videos: [
+                                    {title: "All", link: "https://linuxacademy.com/linux/training/course/name/git-gitlab"}
+                                ]
+                            },
                             {
                                 title: "Working with Atlassian Bitbucket",
                                 videos: [

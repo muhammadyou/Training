@@ -1,6 +1,6 @@
 angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.router', 'ngAnimate'])
 
-    .config(function($stateProvider, $urlRouterProvider){
+    .config(function($stateProvider, $urlRouterProvider, $locationProvider){
 
         $stateProvider
 
@@ -24,7 +24,7 @@ angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.rou
             })
 
             .state('main.nfvProgram', {  //NFV Courses like Openstack
-                url: '/NFVProgram',
+                url: '/home/NFVProgram',
                 views: {
                     'contentView' : {
                         templateUrl: 'templates/NFVProgram.html',
@@ -74,11 +74,11 @@ angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.rou
             // Courses States
 
             .state('main.nfvProgram.TelcoAutoCourses', {  //Courses Details for a specific area
-                url: '/TelcoAutoCourses',
+                url: '/TelcoAutoCourses/LearningStep',
                 views: {
                     'learningPathView' : {
                         templateUrl: 'templates/NfvCourses.html',
-                        controller: 'NFVCoursesCtrl as vm'
+                        controller: 'TelcoCoursesCtrl as vm'
                     }
                 }
 
@@ -86,7 +86,7 @@ angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.rou
 
 
             .state('main.nfvProgram.VNFOwnCourses', {  //Courses Details for a specific area
-                url: '/VNFOwnCourses',
+                url: '/VNFOwnCourses/LearningStep',
                 views: {
                     'learningPathView' : {
                         templateUrl: 'templates/NfvCourses.html',
@@ -97,7 +97,7 @@ angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.rou
             })
 
             .state('main.nfvProgram.CloudEveryone', {  //Courses Details for a specific area
-                url: '/CloudForEveryoneAndManagement',
+                url: '/CloudForEveryoneAndManagement/LearningStep',
                 views: {
                     'learningPathView' : {
                         templateUrl: 'templates/NfvCourses.html',
@@ -107,7 +107,8 @@ angular.module('myApp',['MyControllers', 'MyServices', 'ui.materialize', 'ui.rou
 
             })
 
-
         $urlRouterProvider.otherwise('/home');
+
+
     });
 
