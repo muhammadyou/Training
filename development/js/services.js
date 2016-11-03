@@ -563,19 +563,6 @@ angular.module("MyServices", [])
                             }
 
                         ]
-                    },
-
-                    {
-                        Coursetitle: "Phase 2: Openstack Foundation Certified Openstack Administrator",
-                        sections: [
-                            {
-                                title: "All",
-                                videos: [
-                                    {title: "All", link: "https://linuxacademy.com/openstack/training/course/name/openstack-foundation-certified-openstack-administrator"}
-                                ]
-                            }
-
-                        ]
                     }
 
                 ],

@@ -108,7 +108,7 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
 .tagline{
     font-size:20px;
 }
-.sahaabHeading{
+.ETHeading{
     font-family: "neo-tech", sans-serif;
     font-weight: 900;
     font-size: 18px;
@@ -119,11 +119,13 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
 }
 
 
-.sahaabArab img{
-    margin-left:-25px;
-    width:150px;
-    margin-top:25px;
-
+.ndHeading{
+    margin-left:-20px;
+    margin-top:38px;
+    color:black;
+    font-family: "neo-tech", sans-serif;
+    font-weight: 900;
+    font-size: 16px;
 }
 
 
