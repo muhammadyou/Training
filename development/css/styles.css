@@ -155,6 +155,7 @@ a:hover,a:visited,a:active{    /* to remove the underline from buttons */
     left: 0;
     right: 0;
     height:35%;
+    overflow-y:hidden;
 }
 /*-----------------------------------------Training Program Boxes ----------------*/
 
